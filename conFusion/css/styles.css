@@ -37,3 +37,15 @@ body{
 	border-bottom: 1px solid #dddddd;
 	padding: 20px;
 }
+.carousel{
+	background: #512DA8;
+}
+.carousel-item{
+	height: 300px;
+}
+.carusel-item img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	min-height: 300px;
+}
