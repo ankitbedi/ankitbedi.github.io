@@ -49,3 +49,6 @@ body{
 	left: 0px;
 	min-height: 300px;
 }
+button{
+	cursor: pointer;
+}
