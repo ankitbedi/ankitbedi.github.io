@@ -13,5 +13,11 @@ $(document).ready(function(){
 			$("#carousel-button").children("span").removeClass("fa-play");
 			$("#carousel-button").children("span").addClass("fa-pause");
 		}				
-	});			
+	});
+	$("#reserveButton").click(function(){
+		$("#reserveModal").modal("show");
+	});	
+	$("#loginButton").click(function(){
+		$("#loginModal").modal("show");
+	});	
 });
